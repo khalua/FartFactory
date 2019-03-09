@@ -13,14 +13,13 @@ class ViewController: UIViewController {
 
     var fart1AudioPlayer: AVAudioPlayer?
     
-    @IBOutlet weak var fart1Label!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         do {
-            if let fart1AudioPath = Bundle.main.path(forResource: "fart", ofType: "wav")  {
+            if let fart1AudioPath = Bundle.main.path(forResource: "fart1", ofType: "wav")  {
                 let urlFart1 = URL(fileURLWithPath: fart1AudioPath)
                 fart1AudioPlayer = try AVAudioPlayer(contentsOf: urlFart1)
             }
@@ -33,6 +32,7 @@ class ViewController: UIViewController {
     
     @IBAction func playFart1() {
         fart1AudioPlayer?.play()
+        print("fart1 pressed")
     }
 
 }
