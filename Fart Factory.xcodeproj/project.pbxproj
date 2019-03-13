@@ -12,6 +12,12 @@
 		5B37879822333BB500E02F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B37879622333BB500E02F7F /* Main.storyboard */; };
 		5B37879A22333BB900E02F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B37879922333BB900E02F7F /* Assets.xcassets */; };
 		5B37879D22333BB900E02F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B37879B22333BB900E02F7F /* LaunchScreen.storyboard */; };
+		5B633C7122395A4B003D86F5 /* fart2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C6B22395A4B003D86F5 /* fart2.wav */; };
+		5B633C7222395A4B003D86F5 /* fart3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C6C22395A4B003D86F5 /* fart3.wav */; };
+		5B633C7322395A4B003D86F5 /* fart5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C6D22395A4B003D86F5 /* fart5.wav */; };
+		5B633C7422395A4B003D86F5 /* fart4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C6E22395A4B003D86F5 /* fart4.wav */; };
+		5B633C7522395A4B003D86F5 /* fart7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C6F22395A4B003D86F5 /* fart7.wav */; };
+		5B633C7622395A4B003D86F5 /* fart6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5B633C7022395A4B003D86F5 /* fart6.wav */; };
 		EA74FEAC22337FBD00BDD5C6 /* fart1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EA74FEAB22337FBD00BDD5C6 /* fart1.wav */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +29,12 @@
 		5B37879922333BB900E02F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B37879C22333BB900E02F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B37879E22333BB900E02F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B633C6B22395A4B003D86F5 /* fart2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart2.wav; sourceTree = "<group>"; };
+		5B633C6C22395A4B003D86F5 /* fart3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart3.wav; sourceTree = "<group>"; };
+		5B633C6D22395A4B003D86F5 /* fart5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart5.wav; sourceTree = "<group>"; };
+		5B633C6E22395A4B003D86F5 /* fart4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart4.wav; sourceTree = "<group>"; };
+		5B633C6F22395A4B003D86F5 /* fart7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart7.wav; sourceTree = "<group>"; };
+		5B633C7022395A4B003D86F5 /* fart6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart6.wav; sourceTree = "<group>"; };
 		EA74FEAB22337FBD00BDD5C6 /* fart1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fart1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +68,12 @@
 		5B37879122333BB500E02F7F /* Fart Factory */ = {
 			isa = PBXGroup;
 			children = (
+				5B633C6B22395A4B003D86F5 /* fart2.wav */,
+				5B633C6C22395A4B003D86F5 /* fart3.wav */,
+				5B633C6E22395A4B003D86F5 /* fart4.wav */,
+				5B633C6D22395A4B003D86F5 /* fart5.wav */,
+				5B633C7022395A4B003D86F5 /* fart6.wav */,
+				5B633C6F22395A4B003D86F5 /* fart7.wav */,
 				EA74FEAB22337FBD00BDD5C6 /* fart1.wav */,
 				5B37879222333BB500E02F7F /* AppDelegate.swift */,
 				5B37879422333BB500E02F7F /* ViewController.swift */,
@@ -127,7 +145,13 @@
 			files = (
 				5B37879D22333BB900E02F7F /* LaunchScreen.storyboard in Resources */,
 				5B37879A22333BB900E02F7F /* Assets.xcassets in Resources */,
+				5B633C7122395A4B003D86F5 /* fart2.wav in Resources */,
+				5B633C7522395A4B003D86F5 /* fart7.wav in Resources */,
+				5B633C7622395A4B003D86F5 /* fart6.wav in Resources */,
+				5B633C7222395A4B003D86F5 /* fart3.wav in Resources */,
+				5B633C7322395A4B003D86F5 /* fart5.wav in Resources */,
 				5B37879822333BB500E02F7F /* Main.storyboard in Resources */,
+				5B633C7422395A4B003D86F5 /* fart4.wav in Resources */,
 				EA74FEAC22337FBD00BDD5C6 /* fart1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
